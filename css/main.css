@@ -1,0 +1,249 @@
+/***** BASE STYLES *****/
+body {
+	font-family:'Raleway';
+	color: #000000;
+}
+
+#about, #work, #contact {
+	height: 600px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+		width: 1200px;
+		margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/***** HEADER *****/
+
+.main-image {
+	height: auto;
+	float: right;
+	padding: 20px;
+	
+}
+
+header {
+	height: 800px;
+	color: #bec4c3;
+
+}
+
+
+nav {
+    float: left; 
+    padding: 50px 0px;
+
+}
+
+
+nav ul li{
+    display: inline;
+	border: none;
+	margin: 12px;
+	padding: 0px 0px 20px 0px;
+	width: 80px;
+	color: #bec4c3;
+	
+	
+}
+
+nav ul li a {
+    text-transform: lowercase;
+	text-decoration: none;
+    font-size: 14px;
+    color: #b5bfc0;
+	letter-spacing:.5px;
+}
+
+/*** CHANGE NAV HOVER ***/
+
+/* Change the link color on hover */
+
+li a:hover {
+  background-color: #5c787e;
+  color: white;
+}
+
+header h2 {
+    width: 940px;
+    clear: both;
+    font-family: 'Fredoka One';
+    font-size: 56px; 
+	color: black;
+	letter-spacing: 25px;
+	padding: 70px 0px 300px 30px;
+	border: dotted 1px #b5bfc0;
+	
+}
+header h2 span {
+    letter-spacing: 30px;
+	color: #b5bfc0;
+	font-weight: lighter;
+}
+	
+/***** ABOUT CSS *****/	
+
+#about .full-width {
+    padding: 80px 0;
+	border: solid 1px #b5bfc0 ;
+	
+}
+
+#about h2 {
+	font-family:'Fredoka One';
+	font-size: 36px;
+	padding-left: 50px;
+	color:　#483D8B;
+}
+
+#about p {
+	font-size: 21px;
+	line-height: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/***** WORK CSS *****/
+
+#work {
+	text-align: center;
+}
+
+#work .full-width {
+	padding: 5px 0;
+}
+
+
+#work h3 {
+	font-size: 40px;
+	line-height: 50px;
+	width: 190px;
+	margin: 0 auto;
+	color:#587f8d;
+	
+}
+
+#work p {
+	font-family: 'raleway';
+	font-size: 18px;
+	line-height: 30px;
+	padding: 0 50 px;
+	
+}
+
+/***** CONTACT *****/
+
+#contact {
+	background-color:#b5bfc0;
+}
+
+#contact .full-width {
+	padding: 110px 0;
+	
+}
+
+#contact img#work-img {
+	margin-left: 25px;s
+	border: 12px solid #00008b;
+	
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul{
+	padding-left: 115px;
+}
+#contact #envelope {
+	padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'fredoka one';
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height:44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #00008b;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
+
+/***** Work Page ******/
+
+
+
+#workpage {
+	height: 800px;
+	background-image:url("../img/header-cactus.jpg");
+
+}
+
+#workpage h1 {
+	font-family: 'fredoka one';
+	letter-spacing: 10px;
+	padding: 10px 0px 10px 10px;
+	color:#bec4c3;
+	padding-bottom: 120px;
+	
+}
+
+#workpage h1 span {
+	color: black;
+}
+
+
+
+#workpage div {
+	background-color: #40bcc4;
+	border-radius: 10px 100px / 120px;
+	text-align:center;
+}
+
+#workpage  h2 {
+	font-family: 'fredoka one';
+	padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
