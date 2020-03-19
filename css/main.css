@@ -133,6 +133,7 @@ header h2 span {
 	width: 190px;
 	margin: 0 auto;
 	color:#587f8d;
+
 	
 }
 
@@ -142,6 +143,10 @@ header h2 span {
 	line-height: 30px;
 	padding: 0 50 px;
 	
+}
+
+#work #html, #css, #design {
+	padding-bottom: 30px;
 }
 
 /***** CONTACT *****/
